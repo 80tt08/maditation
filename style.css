@@ -1,0 +1,68 @@
+/***** GLOBAK STYLES *****/
+
+/* container */
+.container {width: 1000px; margin: 0 auto;}
+
+/* row */
+.row {position: relative; margin: 0 20px;}
+
+/* header */
+
+#header .header-title {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 5px;
+    
+}
+ 
+.blas{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* mediaquery */
+@media (max-width: 1020px){
+    .container {width: 100%;
+     
+}
+/* bestM */
+
+.bestM .best-title .bt-tit {font-size: 22px; padding-bottom: 5px; margin: 0px;}
+.bestM .best-title .bt-desc {font-size: 22px; font-weight: 300; color: #818181; margin-bottom: 10px; margin-top: 0px;}
+
+
+/* recentM */
+.recentM {padding: 0px 0; margin-top: 0px; overflow: hidden; }
+.recentM .recent {float: left; width: 49%; margin-right: 2%;}
+.recentM .recent:last-child {margin-right: 0;}
+.recentM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; padding-top: 20px; border-top: 1px solid #EBEBEB;}
+.recentM .recent-title .rt-stit {font-size: 15px; line-height: 1.9;}
+.recentM .recent-title .rt-tit {color:#908F94; font-size: 15px; font-weight: 300;}
+
+/* nextM */
+.nextM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; padding-top: 20px; border-top: 1px solid #EBEBEB;}
+.nextM .next {display: flex; margin-bottom: 16px; position: relative;}
+.nextM .next:after {
+    content: '';
+    position: absolute; right: 0; bottom: -8px;
+    width: calc(100% - 114px);
+    height: 1px; 
+    background: #ebebeb;
+}
+.nextM .next .next-img {width: 102px; margin-right: 12px; }
+.nextM .next .next-tit {display: flex; flex-direction: column; justify-content: center;}
+.nextM .next .next-tit .nt-stit {color: #da5e7c; font-size: 12px;}
+.nextM .next .next-tit .nt-tit {font-size: 16px;}
+.nextM .next .next-tit .nt-desc {
+    font-size: 13px; color: #a1a1a1; font-weight: 300;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}}
